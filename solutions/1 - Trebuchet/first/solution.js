@@ -1,5 +1,5 @@
 import { stringToArr } from '../../../utils/utils.js';
-import { data } from './data.js';
+import { data } from '../data.js';
 
 export function getSumOfCalibrationValues(data) {
 	const arr = stringToArr(data);
@@ -23,8 +23,6 @@ export function getSumOfCalibrationValues(data) {
 			if (leftDigit == null) {
 				!Number.isNaN(leftNum) ? (leftDigit = leftNum) : left++;
 			}
-			if (rightVal == null) {
-				!Number.isNaN(rightNum) ? (rightVal = rightNum) : right--;
 			if (rightDigit == null) {
 				!Number.isNaN(rightNum) ? (rightDigit = rightNum) : right--;
 			}
