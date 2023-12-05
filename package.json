@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "prettier:fix": "prettier . --fix",
+    "prettier:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "@mfilin/prettier-config": "1.1.0",
+    "prettier": "3.1.0"
+  },
+  "prettier": "@mfilin/prettier-config",
+  "type": "module"
+}
